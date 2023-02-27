@@ -1,0 +1,166 @@
+
+
+body{
+    background: rgb(242, 233, 228)!important;
+}
+
+
+
+.box {
+    background: rgba(34, 34, 59,.3);
+
+    position: absolute;
+    left: 50%;
+    translate:-50%;
+
+    margin-top:5%;
+    padding: 5px;
+
+    width: 500px;
+    height: 600px;
+
+    border-radius: 40px;
+    
+}
+
+.box::before {
+    content:'';
+    position: absolute;
+    background: rgba(154, 140, 152,.30);
+    inset:0;
+    transform: rotate(-5deg);
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.contents{
+
+    
+    margin-top:5%;
+    position: absolute!important;
+    left: 45%;
+    translate: -50%;
+}
+
+.padding{
+    padding:8px!important;
+}
+
+.input-style {
+    margin-top: 30%!important;
+    left: 50%;
+    translate: -60% !important;
+    
+    position:absolute;
+}
+
+img{
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    margin-top: 20px;
+
+    width: 250px
+    
+
+}
+
+
+
+.buttons-style {
+    font-size: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 20px !important;
+    background-color: rgb(74, 78, 105)!important;
+    border:rgb(74, 78, 105)! important;
+}
+
+.buttons {
+    padding-top: 37%!important;
+    position: absolute;
+    left: 70%;
+    
+    
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+
+
+.input input[type="number"]{
+    border-style: inset;
+    background: rgba(242, 233, 228, .5);
+    border-radius: 15px;
+
+
+}
+
+/*per togliere le freccie nelle caselle dell'input*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.button-ris {
+    font-family:romanian!important;
+    font-size:medium!important;
+    position: relative;
+    left:50%;
+    translate:-50%;
+    margin-top:13px;
+    background-color:rgb(74, 78, 105)!important;
+    border-color: rgb(74, 78, 105)!important;
+    color: white !important;
+    width:200px!important;
+    height:55px!important;
+}
+
+.border-text-ris{
+    position: absolute!important;
+    border: 6px solid black!important;
+    border-radius: 20px!important;
+    border-style: inset!important;
+    background-color: rgb(242, 233, 228,.5)!important;
+    margin-top:76%!important;
+    left:50%;
+    translate:-43%;
+    width: 280px!important;
+    height: 80px!important;
+}
+
+.text-ris {
+    position: relative!important;
+    text-align: center!important;
+    font-size: 25px!important;
+    margin-top: 17px!important;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.spinner-container {
+    position: absolute!important;
+    left: 50%;
+    translate:-50%;
+    
+    background-color: black!important;
+    opacity: 0.9!important;
+    width: 100vw!important;
+    height: 100vh!important;
+}
+
+.spinner-style {
+    color: rgb(242, 233, 228);
+    margin-top:180px;
+}
+
+
+
+
+
+
+
+
+
